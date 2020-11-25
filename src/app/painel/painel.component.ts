@@ -16,7 +16,7 @@ export class PainelComponent implements OnInit {
 
   //Variáveis
   public rodada: number = 0
-  public rodadaFrase: Frase = this.resposta
+  public rodadaFrase: Frase = new Frase('', '')
 
   public progresso: number = 0
   public tentativas: number = 3
